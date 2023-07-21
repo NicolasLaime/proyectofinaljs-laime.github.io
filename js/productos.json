@@ -14,7 +14,7 @@
     {
         "id": "buzo-02",
         "titulo": "buzo-nike",
-        "imagen": "/img/buzos-remera/buzo-02.jpg",
+        "imagen": "./img/buzos-remera/buzo-02.jpg",
         "categoria":{
             "nombre": "buzos-remeras",
             "id": "buzos-remeras"
@@ -25,7 +25,7 @@
     {
         "id": "buzo-03",
         "titulo": "conjunto adidas" ,
-        "imagen": "/img/buzos-remera/buzo-03.jpg",
+        "imagen": "./img/buzos-remera/buzo-03.jpg",
         "categoria":{
             "nombre": "buzos-remeras" ,
             "id": "buzos-remeras"
@@ -39,7 +39,7 @@
    {
       "id": "remera-01",
       "titulo": "remera-adidas" ,
-      "imagen": "/img/buzos-remera/remera-01.jpg",
+      "imagen": "./img/buzos-remera/remera-01.jpg",
       "categoria":{
          "nombre": "buzos-remeras" ,
          "id": "buzos-remeras"
@@ -50,7 +50,7 @@
    {
        "id": "remera-02",
        "titulo": "remera-seleccion" ,
-       "imagen": "/img/buzos-remera/remera-02.jpg",
+       "imagen": "./img/buzos-remera/remera-02.jpg",
        "categoria":{
        "nombre": "buzos-remeras" ,
        "id": "buzos-remeras"
@@ -61,7 +61,7 @@
    {
        "id": "remera-03",
        "titulo": "remera-vans" ,
-       "imagen": "/img/buzos-remera/remera-03.jpg",
+       "imagen": "./img/buzos-remera/remera-03.jpg",
        "categoria":{
           "nombre": "buzos-remeras" ,
           "id": "buzos-remeras"
@@ -76,7 +76,7 @@
     {
         "id": "camperas",
         "titulo": "campera-adidas" ,
-        "imagen": "/img/camperas/campera-01.jpg",
+        "imagen": "./img/camperas/campera-01.jpg",
         "categoria":{
             "nombre": "camperas" ,
             "id": "camperas"
@@ -88,7 +88,7 @@
     {
         "id": "camperas",
         "titulo": "campera-TNF" ,
-        "imagen": "/img/camperas/campera-02.jpg",
+        "imagen": "./img/camperas/campera-02.jpg",
         "categoria":{
             "nombre": "camperas" ,
             "id": "camperas"
@@ -100,7 +100,7 @@
     {
         "id": "camperas",
         "titulo": "campera-TNF negra" ,
-        "imagen": "/img/camperas/campera-03.jpg",
+        "imagen": "./img/camperas/campera-03.jpg",
         "categoria":{
             "nombre": "camperas" ,
             "id": "camperas"
@@ -114,7 +114,7 @@
     {
         "id": "pantalon-01",
         "titulo": "pantalon-corto" ,
-        "imagen": "/img/pantalones/pantalon-01.jpg",
+        "imagen": "./img/pantalones/pantalon-01.jpg",
         "categoria":{
             "nombre": "pantalones" ,
             "id": "pantalones"
@@ -125,7 +125,7 @@
     {
         "id": "pantalon-02",
         "titulo": "pantalon-deportivo" ,
-        "imagen": "/img/pantalones/pantalon-02.jpg",
+        "imagen": "./img/pantalones/pantalon-02.jpg",
         "categoria":{
             "nombre": "pantalones" ,
             "id": "pantalones"

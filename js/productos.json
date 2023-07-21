@@ -2,7 +2,7 @@
 [
     {
         "id": "buzo-01",
-        "titulo": "buzo-01",
+        "titulo": "buzo adidas",
         "imagen": "/img/buzos-remera/buzo-01.jpg",
         "categoria":{
             "nombre": "buzos-remeras",
@@ -13,7 +13,7 @@
     
     {
         "id": "buzo-02",
-        "titulo": "buzo-02",
+        "titulo": "buzo-nike",
         "imagen": "/img/buzos-remera/buzo-02.jpg",
         "categoria":{
             "nombre": "buzos-remeras",
@@ -24,7 +24,7 @@
 
     {
         "id": "buzo-03",
-        "titulo": "buzo-03" ,
+        "titulo": "conjunto adidas" ,
         "imagen": "/img/buzos-remera/buzo-03.jpg",
         "categoria":{
             "nombre": "buzos-remeras" ,
@@ -38,7 +38,7 @@
 
    {
       "id": "remera-01",
-      "titulo": "remera-01" ,
+      "titulo": "remera-adidas" ,
       "imagen": "/img/buzos-remera/remera-01.jpg",
       "categoria":{
          "nombre": "buzos-remeras" ,
@@ -49,7 +49,7 @@
 
    {
        "id": "remera-02",
-       "titulo": "remera-02" ,
+       "titulo": "remera-seleccion" ,
        "imagen": "/img/buzos-remera/remera-02.jpg",
        "categoria":{
        "nombre": "buzos-remeras" ,
@@ -60,7 +60,7 @@
 
    {
        "id": "remera-03",
-       "titulo": "remera-03" ,
+       "titulo": "remera-vans" ,
        "imagen": "/img/buzos-remera/remera-03.jpg",
        "categoria":{
           "nombre": "buzos-remeras" ,
@@ -75,37 +75,37 @@
 
     {
         "id": "camperas",
-        "titulo": "campera-01" ,
+        "titulo": "campera-adidas" ,
         "imagen": "/img/camperas/campera-01.jpg",
         "categoria":{
             "nombre": "camperas" ,
             "id": "camperas"
         },
-        "precio": 1000
+        "precio": 12000
     },
 
 
     {
         "id": "camperas",
-        "titulo": "campera-02" ,
+        "titulo": "campera-TNF" ,
         "imagen": "/img/camperas/campera-02.jpg",
         "categoria":{
             "nombre": "camperas" ,
             "id": "camperas"
         },
-        "precio": 1000
+        "precio": 2000
     },
 
 
     {
         "id": "camperas",
-        "titulo": "campera-03" ,
+        "titulo": "campera-TNF negra" ,
         "imagen": "/img/camperas/campera-03.jpg",
         "categoria":{
             "nombre": "camperas" ,
             "id": "camperas"
         },
-        "precio": 1000
+        "precio": 20000
     },
 
 
@@ -113,7 +113,7 @@
 
     {
         "id": "pantalon-01",
-        "titulo": "pantalon-01" ,
+        "titulo": "pantalon-corto" ,
         "imagen": "/img/pantalones/pantalon-01.jpg",
         "categoria":{
             "nombre": "pantalones" ,
@@ -124,7 +124,7 @@
 
     {
         "id": "pantalon-02",
-        "titulo": "pantalon-02" ,
+        "titulo": "pantalon-deportivo" ,
         "imagen": "/img/pantalones/pantalon-02.jpg",
         "categoria":{
             "nombre": "pantalones" ,

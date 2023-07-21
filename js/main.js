@@ -3,14 +3,31 @@
 
 let productos = []
 
-fetch("./js/productos.json")
- .then(Response => Response.json())
- .then(data => {
-    productos = data;
-    cargarProductos(productos);
-
-
- })
+function fetchProductosConDelay() {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        fetch("./js/productos.json")
+          .then(Response => Response.json())
+          .then(data => {
+            resolve(data);
+          })
+          .catch(error => {
+            reject(error);
+          });
+      }, 2000); // 2000 milisegundos = 2 segundos
+    });
+  }
+  
+  // Luego, puedes utilizar la función fetchProductosConDelay para obtener los productos con el retraso de 2 segundos:
+  
+  fetchProductosConDelay()
+    .then(data => {
+      productos = data;
+      cargarProductos(productos);
+    })
+    .catch(error => {
+      console.error("Error al obtener los productos:", error);
+    });
 
 
 
@@ -137,6 +154,37 @@ if (productosEnCarritoLS){
 
 
 function agregarAlcarrito(e){
+
+    Toastify({
+        text: "agregado al carrito",
+        duration: 3000,
+        destination: "https://github.com/apvarun/toastify-js",
+        newWindow: true,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "linear-gradient(to right, #00b09b, #96c93d)",
+          borderRadius: "2rem",
+        },
+        onClick: function(){} // Callback after click
+      }).showToast();
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     const idBoton = e.currentTarget.id
     const productoAgregado = productos.find(producto => producto.id === idBoton);

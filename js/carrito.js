@@ -97,6 +97,38 @@ function actualizarBotonesEliminar(){
 }
 
 function eliminarDelCarrito(e){
+
+  Toastify({
+    text: "producto eliminado",
+    duration: 3000,
+    destination: "https://github.com/apvarun/toastify-js",
+    newWindow: true,
+    close: true,
+    gravity: "top", // `top` or `bottom`
+    position: "right", // `left`, `center` or `right`
+    stopOnFocus: true, // Prevents dismissing of toast on hover
+    style: {
+      background: "linear-gradient(to right, #00b09b, #96c93d)",
+      borderRadius: "2rem",
+    },
+    onClick: function(){} // Callback after click
+  }).showToast();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
     const idBoton = e.currentTarget.id  // CON ESTO BUSCO EL ID
     
@@ -125,12 +157,54 @@ function eliminarDelCarrito(e){
 
 botonVaciar.addEventListener('click', vaciarCarrito);
 
+
 function vaciarCarrito(){
 
-   productosEnCarrito.length = 0;
-   localStorage.setItem('productos-en-carrito', JSON.stringify(productosEnCarrito));
+  Swal.fire({
+    title: '¿estas seguro?',
+    icon: 'info',
+    html:
+      'se borraran todos los productos del carrito',
+    showCloseButton: true,
+    showCancelButton: true,
+    focusConfirm: false,
+    confirmButtonText:
+      'si',
+    confirmButtonAriaLabel: 'Thumbs up, great!',
+    cancelButtonText:
+      'no',
+    
+  }).then((result) => {
+    /* Read more about isConfirmed, isDenied below */
+    if (result.isConfirmed) {
+      productosEnCarrito.length = 0;
+      localStorage.setItem('productos-en-carrito', JSON.stringify(productosEnCarrito));
+      cargarProductosCarrito();
 
-   cargarProductosCarrito();
+    } 
+  })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
 
 }
 
@@ -150,6 +224,26 @@ function actualizarTotal(){
 botonComprar.addEventListener('click', comprarCarrito);
 
 function comprarCarrito(){
+ 
+  Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: 'muchas gracias por tu compra ',
+    showConfirmButton: false,
+    timer: 1500
+  })
+  
+
+
+
+
+
+
+
+
+
+
+
 
    productosEnCarrito.length = 0;
    localStorage.setItem('productos-en-carrito', JSON.stringify(productosEnCarrito));

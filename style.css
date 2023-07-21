@@ -165,6 +165,7 @@ main{
   border-radius: 1rem;
   height: 60%;
   width: 100%;
+  border: ridge;
 }
 
 .producto-detalles{
@@ -311,3 +312,9 @@ main{
 .disabled{
     display: none;
 }
+
+#spinner {
+    
+    font-size: 30px;
+    margin-top: 20px;
+  }

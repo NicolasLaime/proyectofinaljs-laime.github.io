@@ -3,7 +3,7 @@
     {
         "id": "buzo-01",
         "titulo": "buzo adidas",
-        "imagen": "../img/buzos-remera/buzo-01.jpg",
+        "imagen": "./img/buzos-remera/buzo-01.jpg",
         "categoria":{
             "nombre": "buzos-remeras",
             "id": "buzos-remeras"

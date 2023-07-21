@@ -1,0 +1,136 @@
+
+[
+    {
+        "id": "buzo-01",
+        "titulo": "buzo-01",
+        "imagen": "/img/buzos-remera/buzo-01.jpg",
+        "categoria":{
+            "nombre": "buzos-remeras",
+            "id": "buzos-remeras"
+        },
+        "precio": 1000
+    },
+    
+    {
+        "id": "buzo-02",
+        "titulo": "buzo-02",
+        "imagen": "/img/buzos-remera/buzo-02.jpg",
+        "categoria":{
+            "nombre": "buzos-remeras",
+            "id": "buzos-remeras"
+        },
+        "precio": 1000
+    },
+
+    {
+        "id": "buzo-03",
+        "titulo": "buzo-03" ,
+        "imagen": "/img/buzos-remera/buzo-03.jpg",
+        "categoria":{
+            "nombre": "buzos-remeras" ,
+            "id": "buzos-remeras"
+        },
+        "precio": 1000
+    },
+    
+
+   
+
+   {
+      "id": "remera-01",
+      "titulo": "remera-01" ,
+      "imagen": "/img/buzos-remera/remera-01.jpg",
+      "categoria":{
+         "nombre": "buzos-remeras" ,
+         "id": "buzos-remeras"
+     },
+     "precio": 1000
+   },
+
+   {
+       "id": "remera-02",
+       "titulo": "remera-02" ,
+       "imagen": "/img/buzos-remera/remera-02.jpg",
+       "categoria":{
+       "nombre": "buzos-remeras" ,
+       "id": "buzos-remeras"
+      },
+     "precio": 1000
+    },
+
+   {
+       "id": "remera-03",
+       "titulo": "remera-03" ,
+       "imagen": "/img/buzos-remera/remera-03.jpg",
+       "categoria":{
+          "nombre": "buzos-remeras" ,
+          "id": "buzos-remeras"
+        },
+     "precio": 1000
+
+    },
+
+    
+    
+
+    {
+        "id": "camperas",
+        "titulo": "campera-01" ,
+        "imagen": "/img/camperas/campera-01.jpg",
+        "categoria":{
+            "nombre": "camperas" ,
+            "id": "camperas"
+        },
+        "precio": 1000
+    },
+
+
+    {
+        "id": "camperas",
+        "titulo": "campera-02" ,
+        "imagen": "/img/camperas/campera-02.jpg",
+        "categoria":{
+            "nombre": "camperas" ,
+            "id": "camperas"
+        },
+        "precio": 1000
+    },
+
+
+    {
+        "id": "camperas",
+        "titulo": "campera-03" ,
+        "imagen": "/img/camperas/campera-03.jpg",
+        "categoria":{
+            "nombre": "camperas" ,
+            "id": "camperas"
+        },
+        "precio": 1000
+    },
+
+
+
+
+    {
+        "id": "pantalon-01",
+        "titulo": "pantalon-01" ,
+        "imagen": "/img/pantalones/pantalon-01.jpg",
+        "categoria":{
+            "nombre": "pantalones" ,
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+
+    {
+        "id": "pantalon-02",
+        "titulo": "pantalon-02" ,
+        "imagen": "/img/pantalones/pantalon-02.jpg",
+        "categoria":{
+            "nombre": "pantalones" ,
+            "id": "pantalones"
+        },
+        "precio": 1000
+    }
+
+]
